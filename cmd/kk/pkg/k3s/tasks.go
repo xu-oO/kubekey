@@ -30,17 +30,17 @@ import (
 	kube "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 
-	kubekeyapiv1alpha2 "github.com/kubesphere/kubekey/v3/cmd/kk/apis/kubekey/v1alpha2"
-	kubekeyregistry "github.com/kubesphere/kubekey/v3/cmd/kk/pkg/bootstrap/registry"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/common"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/action"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/connector"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/util"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/files"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/images"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/k3s/templates"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/registry"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/utils"
+	kubekeyapiv1alpha2 "github.com/xu-oO/kubekey/v3/cmd/kk/apis/kubekey/v1alpha2"
+	kubekeyregistry "github.com/xu-oO/kubekey/v3/cmd/kk/pkg/bootstrap/registry"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/action"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/connector"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/util"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/files"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/images"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/k3s/templates"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/registry"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/utils"
 )
 
 type GetClusterStatus struct {

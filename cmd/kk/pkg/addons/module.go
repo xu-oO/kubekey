@@ -17,8 +17,8 @@
 package addons
 
 import (
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/common"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/task"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/task"
 )
 
 type AddonsModule struct {

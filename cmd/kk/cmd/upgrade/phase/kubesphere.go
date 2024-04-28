@@ -22,11 +22,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/kubesphere/kubekey/v3/cmd/kk/cmd/options"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/cmd/util"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/common"
-	alpha "github.com/kubesphere/kubekey/v3/cmd/kk/pkg/phase/kubesphere"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/version/kubesphere"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/cmd/options"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/cmd/util"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
+	alpha "github.com/xu-oO/kubekey/v3/cmd/kk/pkg/phase/kubesphere"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/version/kubesphere"
 )
 
 type UpgradeKubeSphereOptions struct {

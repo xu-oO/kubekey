@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/kubesphere/kubekey/v3/pkg/clients/ssh"
-	"github.com/kubesphere/kubekey/v3/pkg/rootfs"
+	"github.com/xu-oO/kubekey/v3/pkg/clients/ssh"
+	"github.com/xu-oO/kubekey/v3/pkg/rootfs"
 )
 
 // Containerd info

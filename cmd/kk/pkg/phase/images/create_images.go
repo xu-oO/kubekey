@@ -19,12 +19,12 @@ package images
 import (
 	"errors"
 
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/bootstrap/precheck"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/common"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/container"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/module"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/pipeline"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/kubernetes"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/bootstrap/precheck"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/container"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/module"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/pipeline"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/kubernetes"
 )
 
 func NewCreateImagesPipeline(runtime *common.KubeRuntime) error {

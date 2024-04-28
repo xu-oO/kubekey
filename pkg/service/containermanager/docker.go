@@ -23,13 +23,13 @@ import (
 	"text/template"
 	"time"
 
-	infrav1 "github.com/kubesphere/kubekey/v3/api/v1beta1"
-	"github.com/kubesphere/kubekey/v3/pkg/clients/ssh"
-	"github.com/kubesphere/kubekey/v3/pkg/scope"
-	"github.com/kubesphere/kubekey/v3/pkg/service/operation"
-	"github.com/kubesphere/kubekey/v3/pkg/service/operation/directory"
-	"github.com/kubesphere/kubekey/v3/pkg/service/operation/file"
-	"github.com/kubesphere/kubekey/v3/pkg/service/util"
+	infrav1 "github.com/xu-oO/kubekey/v3/api/v1beta1"
+	"github.com/xu-oO/kubekey/v3/pkg/clients/ssh"
+	"github.com/xu-oO/kubekey/v3/pkg/scope"
+	"github.com/xu-oO/kubekey/v3/pkg/service/operation"
+	"github.com/xu-oO/kubekey/v3/pkg/service/operation/directory"
+	"github.com/xu-oO/kubekey/v3/pkg/service/operation/file"
+	"github.com/xu-oO/kubekey/v3/pkg/service/util"
 )
 
 // DockerService is a ContainerManager service implementation for docker.

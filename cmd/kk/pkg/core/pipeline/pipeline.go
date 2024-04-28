@@ -23,11 +23,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/cache"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/connector"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/ending"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/logger"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/module"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/cache"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/connector"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/ending"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/logger"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/module"
 )
 
 var logo = `

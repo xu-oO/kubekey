@@ -26,11 +26,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	kubekeyapiv1alpha2 "github.com/kubesphere/kubekey/v3/cmd/kk/apis/kubekey/v1alpha2"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/common"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/action"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/connector"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/util"
+	kubekeyapiv1alpha2 "github.com/xu-oO/kubekey/v3/cmd/kk/apis/kubekey/v1alpha2"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/action"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/connector"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/util"
 )
 
 type CustomScriptTask struct {

@@ -26,10 +26,10 @@ import (
 	clusterv1 "sigs.k8s.io/cluster-api/api/v1beta1"
 	"sigs.k8s.io/cluster-api/util/conditions"
 
-	infrav1 "github.com/kubesphere/kubekey/v3/api/v1beta1"
-	"github.com/kubesphere/kubekey/v3/pkg/clients/ssh"
-	"github.com/kubesphere/kubekey/v3/pkg/scope"
-	"github.com/kubesphere/kubekey/v3/pkg/service"
+	infrav1 "github.com/xu-oO/kubekey/v3/api/v1beta1"
+	"github.com/xu-oO/kubekey/v3/pkg/clients/ssh"
+	"github.com/xu-oO/kubekey/v3/pkg/scope"
+	"github.com/xu-oO/kubekey/v3/pkg/service"
 )
 
 func (r *Reconciler) phaseFactory(kkInstanceScope scope.KKInstanceScope) []func(context.Context, ssh.Interface,

@@ -21,13 +21,13 @@ import (
 
 	versionutil "k8s.io/apimachinery/pkg/util/version"
 
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/certs/templates"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/common"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/action"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/prepare"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/task"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/util"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/kubernetes"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/certs/templates"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/action"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/prepare"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/task"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/util"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/kubernetes"
 )
 
 type CheckCertsModule struct {

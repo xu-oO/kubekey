@@ -19,8 +19,8 @@ package alpha
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/kubesphere/kubekey/v3/cmd/kk/cmd/options"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/cmd/upgrade/phase"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/cmd/options"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/cmd/upgrade/phase"
 )
 
 type UpgradeOptions struct {

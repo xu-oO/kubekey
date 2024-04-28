@@ -21,9 +21,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/common"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/connector"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/logger"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/connector"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/logger"
 )
 
 type CheckDefaultStorageClass struct {

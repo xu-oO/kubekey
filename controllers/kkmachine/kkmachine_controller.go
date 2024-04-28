@@ -44,10 +44,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/handler"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
-	infrav1 "github.com/kubesphere/kubekey/v3/api/v1beta1"
-	"github.com/kubesphere/kubekey/v3/pkg"
-	"github.com/kubesphere/kubekey/v3/pkg/scope"
-	"github.com/kubesphere/kubekey/v3/util"
+	infrav1 "github.com/xu-oO/kubekey/v3/api/v1beta1"
+	"github.com/xu-oO/kubekey/v3/pkg"
+	"github.com/xu-oO/kubekey/v3/pkg/scope"
+	"github.com/xu-oO/kubekey/v3/util"
 )
 
 var (

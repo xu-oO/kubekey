@@ -1,4 +1,4 @@
-module github.com/kubesphere/kubekey/v3
+module github.com/xu-oO/kubekey/v3
 
 go 1.19
 

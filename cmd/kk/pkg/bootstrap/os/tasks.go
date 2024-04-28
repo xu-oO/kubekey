@@ -23,11 +23,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/bootstrap/os/repository"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/common"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/connector"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/utils"
-	"github.com/kubesphere/kubekey/v3/util/osrelease"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/bootstrap/os/repository"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/connector"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/utils"
+	"github.com/xu-oO/kubekey/v3/util/osrelease"
 )
 
 type NodeConfigureOS struct {

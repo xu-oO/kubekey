@@ -19,7 +19,7 @@ package checksum
 import (
 	"github.com/pkg/errors"
 
-	"github.com/kubesphere/kubekey/v3/version"
+	"github.com/xu-oO/kubekey/v3/version"
 )
 
 var (

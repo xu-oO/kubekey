@@ -21,17 +21,17 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/artifact"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/bootstrap/confirm"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/bootstrap/precheck"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/certs"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/common"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/module"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/pipeline"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/filesystem"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/kubernetes"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/kubesphere"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/loadbalancer"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/artifact"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/bootstrap/confirm"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/bootstrap/precheck"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/certs"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/module"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/pipeline"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/filesystem"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/kubernetes"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/kubesphere"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/loadbalancer"
 )
 
 func NewUpgradeClusterPipeline(runtime *common.KubeRuntime) error {

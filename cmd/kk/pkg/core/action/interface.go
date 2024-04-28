@@ -17,8 +17,8 @@
 package action
 
 import (
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/cache"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/connector"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/cache"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/connector"
 )
 
 type Action interface {

@@ -21,11 +21,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/kubesphere/kubekey/v3/cmd/kk/cmd/options"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/cmd/util"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/common"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/config"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/version/kubesphere"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/cmd/options"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/cmd/util"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/config"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/version/kubesphere"
 )
 
 type CreateConfigOptions struct {

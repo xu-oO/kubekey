@@ -17,7 +17,7 @@
 package user
 
 import (
-	"github.com/kubesphere/kubekey/v3/pkg/clients/ssh"
+	"github.com/xu-oO/kubekey/v3/pkg/clients/ssh"
 )
 
 // Service holds a collection of interfaces.

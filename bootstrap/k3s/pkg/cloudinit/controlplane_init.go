@@ -17,7 +17,7 @@
 package cloudinit
 
 import (
-	"github.com/kubesphere/kubekey/v3/util/secret"
+	"github.com/xu-oO/kubekey/v3/util/secret"
 )
 
 const (

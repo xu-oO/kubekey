@@ -17,9 +17,9 @@
 package os
 
 import (
-	kubekeyv1alpha2 "github.com/kubesphere/kubekey/v3/cmd/kk/apis/kubekey/v1alpha2"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/common"
-	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/core/connector"
+	kubekeyv1alpha2 "github.com/xu-oO/kubekey/v3/cmd/kk/apis/kubekey/v1alpha2"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/connector"
 )
 
 type NodeConfigureNtpCheck struct {

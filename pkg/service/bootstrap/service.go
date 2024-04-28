@@ -20,12 +20,12 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/kubesphere/kubekey/v3/pkg/clients/ssh"
-	"github.com/kubesphere/kubekey/v3/pkg/scope"
-	"github.com/kubesphere/kubekey/v3/pkg/service/operation"
-	"github.com/kubesphere/kubekey/v3/pkg/service/operation/directory"
-	"github.com/kubesphere/kubekey/v3/pkg/service/operation/file"
-	"github.com/kubesphere/kubekey/v3/pkg/service/operation/user"
+	"github.com/xu-oO/kubekey/v3/pkg/clients/ssh"
+	"github.com/xu-oO/kubekey/v3/pkg/scope"
+	"github.com/xu-oO/kubekey/v3/pkg/service/operation"
+	"github.com/xu-oO/kubekey/v3/pkg/service/operation/directory"
+	"github.com/xu-oO/kubekey/v3/pkg/service/operation/file"
+	"github.com/xu-oO/kubekey/v3/pkg/service/operation/user"
 )
 
 // Service holds a collection of interfaces.

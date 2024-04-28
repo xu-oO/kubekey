@@ -21,11 +21,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	infrav1 "github.com/kubesphere/kubekey/v3/api/v1beta1"
-	"github.com/kubesphere/kubekey/v3/pkg/clients/ssh"
-	"github.com/kubesphere/kubekey/v3/pkg/rootfs"
-	"github.com/kubesphere/kubekey/v3/pkg/service/operation/file/checksum"
-	"github.com/kubesphere/kubekey/v3/util/osrelease"
+	infrav1 "github.com/xu-oO/kubekey/v3/api/v1beta1"
+	"github.com/xu-oO/kubekey/v3/pkg/clients/ssh"
+	"github.com/xu-oO/kubekey/v3/pkg/rootfs"
+	"github.com/xu-oO/kubekey/v3/pkg/service/operation/file/checksum"
+	"github.com/xu-oO/kubekey/v3/util/osrelease"
 )
 
 // ISO info

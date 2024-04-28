@@ -17,8 +17,8 @@
 package cloudinit
 
 import (
-	"github.com/kubesphere/kubekey/v3/pkg/clients/ssh"
-	"github.com/kubesphere/kubekey/v3/pkg/service/provisioning/commands"
+	"github.com/xu-oO/kubekey/v3/pkg/clients/ssh"
+	"github.com/xu-oO/kubekey/v3/pkg/service/provisioning/commands"
 )
 
 const (

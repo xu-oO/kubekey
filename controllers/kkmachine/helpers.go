@@ -30,8 +30,8 @@ import (
 	"sigs.k8s.io/cluster-api/util/patch"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	infrav1 "github.com/kubesphere/kubekey/v3/api/v1beta1"
-	"github.com/kubesphere/kubekey/v3/pkg/scope"
+	infrav1 "github.com/xu-oO/kubekey/v3/api/v1beta1"
+	"github.com/xu-oO/kubekey/v3/pkg/scope"
 )
 
 func (r *Reconciler) createInstance(ctx context.Context, machineScope *scope.MachineScope,
