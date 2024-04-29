@@ -33,7 +33,8 @@ import (
 	"strings"
 	"time"
 
-	"k8s.io/client-go/util/keyutil"
+	// "k8s.io/client-go/util/keyutil"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/etcd/client-go/keyutil"
 	netutils "k8s.io/utils/net"
 )
 
