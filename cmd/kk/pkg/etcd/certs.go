@@ -47,8 +47,8 @@ func KubekeyCertEtcdCA() *certs.KubekeyCert {
 		LongName: "self-signed CA to provision identities for etcd",
 		BaseName: "ca",
 		Config: certs.CertConfig{
+			NotAfter: &notAfter,
 			Config: certutil.Config{
-				NotAfter:   &notAfter,
 				CommonName: "etcd-ca",
 			},
 		},
