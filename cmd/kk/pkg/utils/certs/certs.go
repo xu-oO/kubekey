@@ -26,7 +26,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
-	certutil "github.com/xu-oO/kubekey/v3/cmd/kk/pkg/client-go/cert"
+	certutil "github.com/xu-oO/kubekey/v3/cmd/kk/pkg/etcd/client-go/cert"
 	"k8s.io/apimachinery/pkg/util/sets"
 
 	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"

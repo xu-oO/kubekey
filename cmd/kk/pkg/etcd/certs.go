@@ -28,8 +28,8 @@ import (
 
 	"github.com/pkg/errors"
 	// "k8s.io/client-go/util/cert"
-	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/client-go/cert"
-	certutil "github.com/xu-oO/kubekey/v3/cmd/kk/pkg/client-go/cert"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/etcd/client-go/cert"
+	certutil "github.com/xu-oO/kubekey/v3/cmd/kk/pkg/etcd/client-go/cert"
 	netutils "k8s.io/utils/net"
 
 	kubekeyapiv1alpha2 "github.com/xu-oO/kubekey/v3/cmd/kk/apis/kubekey/v1alpha2"
