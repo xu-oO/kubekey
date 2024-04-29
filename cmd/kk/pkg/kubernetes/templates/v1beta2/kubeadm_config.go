@@ -23,7 +23,6 @@ import (
 
 	"github.com/lithammer/dedent"
 	"github.com/pkg/errors"
-	"gopkg.in/yaml.v2"
 	versionutil "k8s.io/apimachinery/pkg/util/version"
 
 	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
@@ -187,11 +186,11 @@ var (
 	}
 	ControllermanagerArgs = map[string]string{
 		"bind-address":             "0.0.0.0",
-		"cluster-signing-duration": "87600h",
+		"cluster-signing-duration": "876000h",
 	}
 	ControllermanagerSecurityArgs = map[string]string{
 		"bind-address":                    "127.0.0.1",
-		"cluster-signing-duration":        "87600h",
+		"cluster-signing-duration":        "876000h",
 		"profiling":                       "false",
 		"terminated-pod-gc-threshold":     "50",
 		"use-service-account-credentials": "true",
@@ -222,7 +221,7 @@ func GetControllermanagerArgs(version string, securityEnhancement bool) map[stri
 
 	if versionutil.MustParseSemantic(version).LessThan(versionutil.MustParseSemantic("1.19.0")) {
 		delete(args, "cluster-signing-duration")
-		args["experimental-cluster-signing-duration"] = "87600h"
+		args["experimental-cluster-signing-duration"] = "876000h"
 	}
 	return args
 }
