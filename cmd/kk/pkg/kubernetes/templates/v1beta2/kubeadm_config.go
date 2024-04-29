@@ -23,6 +23,7 @@ import (
 
 	"github.com/lithammer/dedent"
 	"github.com/pkg/errors"
+	"gopkg.in/yaml.v2"
 	versionutil "k8s.io/apimachinery/pkg/util/version"
 
 	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
