@@ -24,8 +24,8 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"k8s.io/client-go/util/cert"
-	certutil "k8s.io/client-go/util/cert"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/client-go/cert"
+	certutil "github.com/xu-oO/kubekey/v3/cmd/kk/pkg/client-go/cert"
 	netutils "k8s.io/utils/net"
 
 	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"

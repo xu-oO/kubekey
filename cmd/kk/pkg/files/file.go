@@ -28,7 +28,7 @@ import (
 
 	"github.com/pkg/errors"
 
-    "github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
 	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/logger"
 	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/core/util"
 	"github.com/xu-oO/kubekey/v3/version"
@@ -293,17 +293,17 @@ func (b *KubeBinary) Download() error {
 
 // SHA256Check is used to hash checks on downloaded binary. (sha256)
 func (b *KubeBinary) SHA256Check() error {
-    logger.Log.Messagef(common.LocalHost, "%s skipped sha256 check...", b.ID)
+	logger.Log.Messagef(common.LocalHost, "%s skipped sha256 check...", b.ID)
 	output, err := sha256sum(b.Path())
 	if err != nil {
 		// return errors.Wrap(err, fmt.Sprintf("Failed to check SHA256 of %s", b.Path()))
 	}
 
 	if strings.TrimSpace(b.GetSha256()) == "" {
-	    // return errors.New(fmt.Sprintf("No SHA256 found for %s. %s is not supported.", b.ID, b.Version))
+		// return errors.New(fmt.Sprintf("No SHA256 found for %s. %s is not supported.", b.ID, b.Version))
 	}
 	if output != b.GetSha256() {
-	    // return errors.New(fmt.Sprintf("SHA256 no match. %s not equal %s", b.GetSha256(), output))
+		// return errors.New(fmt.Sprintf("SHA256 no match. %s not equal %s", b.GetSha256(), output))
 	}
 	return nil
 }

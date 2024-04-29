@@ -28,7 +28,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	certutil "k8s.io/client-go/util/cert"
+	certutil "github.com/xu-oO/kubekey/v3/cmd/kk/pkg/client-go/cert"
 	"k8s.io/client-go/util/keyutil"
 )
 

@@ -26,8 +26,8 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
+	certutil "github.com/xu-oO/kubekey/v3/cmd/kk/pkg/client-go/cert"
 	"k8s.io/apimachinery/pkg/util/sets"
-	certutil "k8s.io/client-go/util/cert"
 
 	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"
 )
@@ -223,10 +223,11 @@ func NewSignedCert(cfg *CertConfig, key crypto.Signer, caCert *x509.Certificate,
 
 	RemoveDuplicateAltNames(&cfg.AltNames)
 
-	notAfter := time.Now().Add(CertificateValidity).UTC()
+	var notAfter time.Time
 	if cfg.NotAfter != nil {
 		notAfter = *cfg.NotAfter
 	}
+	notAfter = time.Now().Add(CertificateValidity).UTC()
 
 	certTmpl := x509.Certificate{
 		Subject: pkix.Name{

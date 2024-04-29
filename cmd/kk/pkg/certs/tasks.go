@@ -26,11 +26,11 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
+	certutil "github.com/xu-oO/kubekey/v3/cmd/kk/pkg/client-go/cert"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	versionutil "k8s.io/apimachinery/pkg/util/version"
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
 	clientcmdlatest "k8s.io/client-go/tools/clientcmd/api/latest"
-	certutil "k8s.io/client-go/util/cert"
 
 	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/certs/templates"
 	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/common"

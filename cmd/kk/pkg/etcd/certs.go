@@ -24,10 +24,12 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"time"
 
 	"github.com/pkg/errors"
-	"k8s.io/client-go/util/cert"
-	certutil "k8s.io/client-go/util/cert"
+	// "k8s.io/client-go/util/cert"
+	"github.com/xu-oO/kubekey/v3/cmd/kk/pkg/client-go/cert"
+	certutil "github.com/xu-oO/kubekey/v3/cmd/kk/pkg/client-go/cert"
 	netutils "k8s.io/utils/net"
 
 	kubekeyapiv1alpha2 "github.com/xu-oO/kubekey/v3/cmd/kk/apis/kubekey/v1alpha2"
@@ -39,12 +41,14 @@ import (
 
 // KubekeyCertEtcdCA is the definition of the root CA used by the hosted etcd server.
 func KubekeyCertEtcdCA() *certs.KubekeyCert {
+	notAfter := time.Now().Add(24 * 365 * 100).UTC()
 	return &certs.KubekeyCert{
 		Name:     "etcd-ca",
 		LongName: "self-signed CA to provision identities for etcd",
 		BaseName: "ca",
 		Config: certs.CertConfig{
 			Config: certutil.Config{
+				NotAfter:   &notAfter,
 				CommonName: "etcd-ca",
 			},
 		},
