@@ -382,7 +382,7 @@ func newSelfSignedCACert(key *rsa.PrivateKey) (*x509.Certificate, error) {
 			Organization: cfg.Organization,
 		},
 		NotBefore:             now.Add(time.Minute * -5),
-		NotAfter:              now.Add(time.Hour * 24 * 365 * 10), // 10 years
+		NotAfter:              now.Add(time.Hour * 24 * 365 * 100), // 10 years
 		KeyUsage:              x509.KeyUsageKeyEncipherment | x509.KeyUsageDigitalSignature | x509.KeyUsageCertSign,
 		MaxPathLenZero:        true,
 		BasicConstraintsValid: true,
