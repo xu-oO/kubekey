@@ -30,7 +30,7 @@ import (
 	versionutil "k8s.io/apimachinery/pkg/util/version"
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
 	clientcmdlatest "k8s.io/client-go/tools/clientcmd/api/latest"
-	certutil "k8s.io/client-go/util/cert"
+	certutil "github.com/kubesphere/kubekey/v3/cmd/kk/pkg/etcd/client-go/cert"
 
 	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/certs/templates"
 	"github.com/kubesphere/kubekey/v3/cmd/kk/pkg/common"
